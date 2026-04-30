@@ -55,7 +55,12 @@ function init() {
     group.add(plaque);
 
     const baseGeo = new THREE.BoxGeometry(4.2, 0.5, 2);
-    const baseMat = new THREE.MeshStandardMaterial({ color: 0x121212, roughness: 0.85 });
+    // შეცვლილი ფერი სადგამისთვის: მუქი ლურჯი (0x000d1a)
+    const baseMat = new THREE.MeshStandardMaterial({ 
+        color: 0x000d1a, 
+        roughness: 0.7,
+        metalness: 0.2
+    });
     base = new THREE.Mesh(baseGeo, baseMat);
     group.add(base);
 
