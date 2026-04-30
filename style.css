@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+}
+#info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #333;
+    background: rgba(255,255,255,0.9);
+    padding: 15px 25px;
+    border-radius: 5px;
+    pointer-events: none;
+    border-left: 4px solid #001a66;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+h1 {
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #001a66;
+}
+p {
+    margin: 5px 0 0;
+    font-size: 12px;
+    opacity: 0.7;
+}
